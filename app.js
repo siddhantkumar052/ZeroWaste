@@ -11,7 +11,7 @@ const database = mongoose.connection;
 app.use(express.json());
 const cors = require("cors");
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://zero-waste566.netlify.app/",
 };
 app.use(cors(corsOptions));
 
